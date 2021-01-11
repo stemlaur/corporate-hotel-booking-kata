@@ -19,7 +19,7 @@ also can return hotel information given a hotel ID.
 ```java
     public class HotelService {
     
-        // Collaborators(?)
+       void addHotel(int id, String name);
     
         void setRoomType(<?> hotelId, <?> roomType, int quantity);
         
